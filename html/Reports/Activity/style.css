@@ -68,3 +68,8 @@ table.numberreport td {
     padding: 0 1em;
     text-align: right;
 }
+
+<%init>
+RT::Interface::Web::StaticFileHeaders();
+$r->content_type('text/css');
+</%init>

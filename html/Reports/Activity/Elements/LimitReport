@@ -1,23 +1,28 @@
-<form action="index.html" method="POST" enctype="multipart/form-data">
+<form action="index.html" method="GET">
 Query:
-<textarea name="query" rows="5" cols="80"><% $query %></textarea><br />
+<textarea name="Query" rows="5" cols="80"><% $Query %></textarea><br />
 
-Report type: <select name="type">
-<option value="ActivityDetail" <% $ARGS{path} =~ /ActivityDetail/ ? 'selected' : '' %>>Activity detail</option>
-<option value="ActivitySummary" <% $ARGS{path} =~ /ActivitySummary/ ? 'selected' : '' %>>Activity summary</option>
-<option value="ResolutionComments" <% $ARGS{path} =~ /ResolutionComments/ ? 'selected' : '' %>>Resolution comments</option>
-<option value="ResolutionStatistics" <% $ARGS{path} =~ /ResolutionStatistics/ ? 'selected' : '' %>>Resolution statistics</option>
+Report type: <select name="ReportType">
+<option value="ActivityDetail" <% $ReportType =~ /ActivityDetail/ ? 'selected' : '' %>>Activity detail</option>
+<option value="ActivitySummary" <% $ReportType =~ /ActivitySummary/ ? 'selected' : '' %>>Activity summary</option>
+<& /Elements/Callback, _CallbackName => 'AddReports', %ARGS &>
+<option value="ResolutionComments" <% $ReportType =~ /ResolutionComments/ ? 'selected' : '' %>>Resolution comments</option>
+<option value="ResolutionStatistics" <% $ReportType =~ /ResolutionStatistics/ ? 'selected' : '' %>>Resolution statistics</option>
+<option value="WorkedStatistics" <% $ReportType =~ /WorkedStatistics/ ? 'selected' : '' %>>Time worked statistics</option>
 </select><br />
 
-Start date: <input type="text" name="start" value="<% $start %>" /><br />
-End date:   <input type="text" name="end"   value="<% $end   %>" /><br />
+Start date: <input type="text" name="Start" value="<% $Start %>" /><br />
+End date:   <input type="text" name="End"   value="<% $End   %>" /><br />
+Limit to user: <& /Elements/SelectOwner, Name => "Actor", ValueAttribute => 'Name' &>
+<& /Elements/Callback, _CallbackName => 'AddOptions', %ARGS &>
 <& /Elements/Submit, Label => loc('Report') &>
 </form>
 <%args>
-$type  => undef
-$start => undef
-$end   => undef
-$query => undef
+$ReportType  => ''
+$Start => undef
+$End   => undef
+$Query => ''
+$Actor => undef
 </%args>
 <%init>
 </%init>
