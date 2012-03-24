@@ -1,0 +1,65 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.66.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 1f135c2d12696286ba77456ee7f28f760acedde7 Changes
+SHA1 e97aa85235e68e909ab0257b1dacee566e9ab585 MANIFEST
+SHA1 bb18b4e1da7608790667a4356503920701db386a META.yml
+SHA1 3091c8ade7b49e8135dab7d4c30f23cc915b8ac7 Makefile.PL
+SHA1 048570e1d01408f15dcec23980d9a0f8af9de16e README
+SHA1 6a768ab2f1d99785435c3afc282431161ea75e8f html/Callbacks/ActivityReports/Elements/Header/Head
+SHA1 4491788c49479c75bd86f73add6d83416388a3c0 html/Callbacks/ActivityReports/Elements/Tabs/Default
+SHA1 f2dbc0f3877c0d8c061a1d4a2fe6c3be296bd9e6 html/Callbacks/ActivityReports/Elements/Tabs/Privileged
+SHA1 73460975a64fee8b181c51a18d3948f84a31ad99 html/Callbacks/ActivityReports/NoAuth/webrt.css/Default
+SHA1 4499fc03fed0451e7bde59e0481c316ce4753f3c html/Callbacks/ActivityReports/Search/Results.html/SearchActions
+SHA1 f9f52a667998532dc0e2cf9a972bc34c1005ba7d html/Reports/Activity/ActivityDetail.html
+SHA1 49b8308e0050b4eff04c2f109342dea695872ae2 html/Reports/Activity/ActivitySummary.html
+SHA1 fdb41ec2fe78831a4cc1bc166a008df041040436 html/Reports/Activity/Elements/ActivityDetail
+SHA1 8d010c32b9c66e0c17923075d73274a203e6ecd1 html/Reports/Activity/Elements/ActivitySummary
+SHA1 0d467d90faf829288c4ffcbfa16a10a1e4f8cced html/Reports/Activity/Elements/LimitReport
+SHA1 cf423ffbcffacbfe53660a5f16178d9afe37675f html/Reports/Activity/Elements/MiniPlot
+SHA1 cb1fd3c3be5ecd758c332599cb8ca22a3802cfb3 html/Reports/Activity/Elements/PrintFooter
+SHA1 fa4bd3e8cedac02a3dcf7951cf252696f7009cad html/Reports/Activity/Elements/PrintHeader
+SHA1 becd88ce5ee791499bb349c6786045a7b8e6c178 html/Reports/Activity/Elements/ResolutionComments
+SHA1 1dc4ebfaf28ed66ae308a694143f2a32431b4c4c html/Reports/Activity/Elements/ResolutionStatistics
+SHA1 6590f7425d164d2ff33322bff789d9a159c37fba html/Reports/Activity/Elements/ScreenFooter
+SHA1 57bf863316e336668c7da3310c0a3f0e99af9390 html/Reports/Activity/Elements/ScreenHeader
+SHA1 e7a62b82fa45f106bbbdab6297b4be24fa2b1923 html/Reports/Activity/Elements/Tabs
+SHA1 b0eec321ac8dce38488f5faebcf56ca30f0c6a9f html/Reports/Activity/Elements/WorkedStatistics
+SHA1 65cde0a130ab1cedc69b4b5b0c8d610873a78caa html/Reports/Activity/Elements/Wrapper
+SHA1 6d90ba4f3db245c7d79753b73346377916111063 html/Reports/Activity/ResolutionComments.html
+SHA1 7ca2f5696fceac83b0d68f090199de66081f4cae html/Reports/Activity/ResolutionStatistics.html
+SHA1 6a5081222366f8c28ceb86afc1389ba99efd08b2 html/Reports/Activity/WorkedStatistics.html
+SHA1 d1cd72750efe0f069e567625a95e372fb8394ec9 html/Reports/Activity/index.html
+SHA1 e96de7c5edeeee772c5b34c9d6bbcef2e5a35c58 html/Reports/Activity/style.css
+SHA1 89a2065d3ee27efdba558493c102462c8ceed742 html/Search/ActivityReport.html
+SHA1 141cda7e042e6ff73e47ce906e500127b73b83b6 html/Search/Elements/ActivityReport
+SHA1 7ba8556ded0e1b8465b2ebe703e073b416d454d7 inc/Module/Install.pm
+SHA1 69a3a256888658cbbe0164171744838e53dc06e3 inc/Module/Install/Base.pm
+SHA1 17be8c56d695ed14cf77e37542438a5eebf1c9e1 inc/Module/Install/Can.pm
+SHA1 b842371af51441beb020ce37349f96123841f684 inc/Module/Install/Fetch.pm
+SHA1 474ff5d11d1dd3327487f13d44d3c7b3945050a8 inc/Module/Install/Makefile.pm
+SHA1 fdf68f7c27a463011640b0739299834a65268056 inc/Module/Install/Metadata.pm
+SHA1 086821cf681da29d7a7e94e8a6fe6cce7e14f00f inc/Module/Install/RTx.pm
+SHA1 fe19e1641d3642424ba4088909e0f2e05747c76f inc/Module/Install/Win32.pm
+SHA1 b71a7355e7c74219f0d24aedf057121981ff0f95 inc/Module/Install/WriteAll.pm
+SHA1 130603245177b0e6aa7ea0b3cf68a3964ade2d83 lib/RT/Extension/ActivityReports.pm
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (Darwin)
+
+iEYEARECAAYFAk9tOW8ACgkQ0+gKWp5CJQrGXQCeJtO6shlQ4S3cI8AqEvWOuCBG
+W0gAn2X3oFRl0uF36hBfhqDpK+x1lJqd
+=AT0s
+-----END PGP SIGNATURE-----
