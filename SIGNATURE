@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.66.
+signed via the Module::Signature module, version 0.68.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,14 +14,14 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 1f135c2d12696286ba77456ee7f28f760acedde7 Changes
+SHA1 bde2c8b13ac81cfbe159acf8f962474c5be7af01 Changes
 SHA1 e97aa85235e68e909ab0257b1dacee566e9ab585 MANIFEST
-SHA1 bb18b4e1da7608790667a4356503920701db386a META.yml
+SHA1 e31a60dd9b96183146ddae5dbbfeade886d40b85 META.yml
 SHA1 3091c8ade7b49e8135dab7d4c30f23cc915b8ac7 Makefile.PL
 SHA1 048570e1d01408f15dcec23980d9a0f8af9de16e README
 SHA1 6a768ab2f1d99785435c3afc282431161ea75e8f html/Callbacks/ActivityReports/Elements/Header/Head
 SHA1 4491788c49479c75bd86f73add6d83416388a3c0 html/Callbacks/ActivityReports/Elements/Tabs/Default
-SHA1 f2dbc0f3877c0d8c061a1d4a2fe6c3be296bd9e6 html/Callbacks/ActivityReports/Elements/Tabs/Privileged
+SHA1 238c9a068e3837fe215539852bc34690467bea43 html/Callbacks/ActivityReports/Elements/Tabs/Privileged
 SHA1 73460975a64fee8b181c51a18d3948f84a31ad99 html/Callbacks/ActivityReports/NoAuth/webrt.css/Default
 SHA1 4499fc03fed0451e7bde59e0481c316ce4753f3c html/Callbacks/ActivityReports/Search/Results.html/SearchActions
 SHA1 f9f52a667998532dc0e2cf9a972bc34c1005ba7d html/Reports/Activity/ActivityDetail.html
@@ -55,11 +55,11 @@ SHA1 fdf68f7c27a463011640b0739299834a65268056 inc/Module/Install/Metadata.pm
 SHA1 086821cf681da29d7a7e94e8a6fe6cce7e14f00f inc/Module/Install/RTx.pm
 SHA1 fe19e1641d3642424ba4088909e0f2e05747c76f inc/Module/Install/Win32.pm
 SHA1 b71a7355e7c74219f0d24aedf057121981ff0f95 inc/Module/Install/WriteAll.pm
-SHA1 130603245177b0e6aa7ea0b3cf68a3964ade2d83 lib/RT/Extension/ActivityReports.pm
+SHA1 36c1521941102463e9524f8b458e156cb642417e lib/RT/Extension/ActivityReports.pm
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.10 (Darwin)
+Version: GnuPG v1.4.11 (GNU/Linux)
 
-iEYEARECAAYFAk9tOW8ACgkQ0+gKWp5CJQrGXQCeJtO6shlQ4S3cI8AqEvWOuCBG
-W0gAn2X3oFRl0uF36hBfhqDpK+x1lJqd
-=AT0s
+iD8DBQFPcInSHdv9ZfNcOAcRAiHQAJ9jAXofcygHCuLLpmaHLz1nudh2vACeMpf2
+xjOTJWdLYaeIq+D9nUeWqiM=
+=kGd3
 -----END PGP SIGNATURE-----
