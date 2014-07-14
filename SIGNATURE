@@ -14,9 +14,9 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 df31ac8aab8d501c11c41bf45daeddd1a94070c3 Changes
+SHA1 ee6227f3eee02c7e3b8d5f9f550c3b7dca32685a Changes
 SHA1 30633236716a4d2cd439449ffdf838b787b23dc7 MANIFEST
-SHA1 6fd05b30c1f4b072d92d5b6d3119bc85c2c34957 META.yml
+SHA1 ef75b14de02536d3b018907ee3ff62b549b94313 META.yml
 SHA1 3d89b4f11735ae0b3636abd039682c61bd573072 Makefile.PL
 SHA1 78a9fbec6321004b4dae12695445696d1eb6a7ef README
 SHA1 6a768ab2f1d99785435c3afc282431161ea75e8f html/Callbacks/ActivityReports/Elements/Header/Head
@@ -53,19 +53,19 @@ SHA1 363c8931cc183444907684b71d6a379e4fc8edcb inc/Module/Install/Fetch.pm
 SHA1 0c70de66cdd063352766d49db176e5f710f75fe7 inc/Module/Install/Include.pm
 SHA1 26ae1c0f5f352037b560414f216d7e3ac682f936 inc/Module/Install/Makefile.pm
 SHA1 ff97eb025b44c343d026c2a56a73d50c65319e95 inc/Module/Install/Metadata.pm
-SHA1 3b092ed8ce4fa9ed6667f681b54f4a624695e508 inc/Module/Install/RTx.pm
+SHA1 6eccad83ca3c4c5cd7c29411326088652bd71119 inc/Module/Install/RTx.pm
 SHA1 3fdf4c0cffdb1a2e23e5cd26bf95be553f1f9590 inc/Module/Install/RTx/Runtime.pm
 SHA1 79f5b4199f622e8b05aac266b0c39f6a85bb303f inc/Module/Install/ReadmeFromPod.pm
 SHA1 4c5ce519d404e242418f51dfe761287469e18e3a inc/Module/Install/Win32.pm
 SHA1 47a52cf8719a283c0efa2edab0088b5d67e0f23a inc/Module/Install/WriteAll.pm
 SHA1 4e09b598c2626e08cec2bed5e981492fa9e90967 inc/YAML/Tiny.pm
 SHA1 034d0f3a7401dae4be3eee279258181f51a4ad81 inc/unicore/Name.pm
-SHA1 afcc2aa6fba88d79a5d3c1ab9c886b08843e318f lib/RT/Extension/ActivityReports.pm
+SHA1 d01d80c3a6fae08bce7fb5c6188cb7a96234987e lib/RT/Extension/ActivityReports.pm
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.12 (Darwin)
 Comment: GPGTools - http://gpgtools.org
 
-iEYEARECAAYFAlO9tIAACgkQ0+gKWp5CJQoKCwCg1u/ekZH5OteKGozPeylsQlZr
-9doAn37s4cAEYn2Ztk3D6Iqh/PI0BDys
-=AFV9
+iEYEARECAAYFAlPEA5QACgkQ0+gKWp5CJQoBygCfYhOgwyT9ClcWMroWv6FWOdfc
+NdcAoJMkUcpifbxjBU2IQKZMOimnmVX8
+=kPYr
 -----END PGP SIGNATURE-----
